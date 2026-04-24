@@ -102,7 +102,7 @@ class GPTConfig:
     vocab_size: int = 50257 #changed this line because of line 143 in evaluate.py
     n_layer: int = 12
     n_head: int = 12
-    n_embd: int = 504 #changes this from 768 to reduce the number of parameters
+    n_embd: int = 672 #504 #changes this from 768 to reduce the number of parameters
     dropout: float = 0.0
     bias: bool = True # True: bias in Linears and LayerNorms, like GPT-2. False: a bit better and faster
 
